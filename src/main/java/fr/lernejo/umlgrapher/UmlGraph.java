@@ -1,9 +1,9 @@
 package fr.lernejo.umlgrapher;
 
 public class UmlGraph {
-    private final Class className;
+    private final Class[] className;
 
-    public UmlGraph(Class className){
+    public UmlGraph(Class... className){
         this.className=className;
     }
 
